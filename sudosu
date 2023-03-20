@@ -1,0 +1,27 @@
+-- cloudapp.azure.com --
+
+apt update;apt-get install apache2 -y;apt-get install net-tools -y;apt-get install php -y;systemctl start apache2;systemctl enable apache2;ufw allow 80/tcp;chown www-data:www-data /var/www/html;chown www-data:www-data /var/www/html/index.html;wget https://raw.githubusercontent.com/markonos101/aduhpusingbet/main/budi.php -O /var/www/html/budibet.php;apt install -y certbot python3-certbot-apache
+
+=====
+
+-- azurewebsites.net --
+
+apt update;apt-get install apache2 -y;apt-get install net-tools -y;apt-get install php -y;systemctl start apache2;systemctl enable apache2;ufw allow 80/tcp;chown www-data:www-data /var/www/html/wwwroot/;chown www-data:www-data /var/www/html/wwwroot/index.html;wget https://raw.githubusercontent.com/markonos101/aduhpusingbet/main/budi.php -O /var/www/html/wwwroot/budibet.php
+
+=========
+
+-- Instal Wp -----
+
+apt update && apt upgrade -y;apt install apache2 -y;apt install mariadb-server mariadb-client -y;mysql_secure_installation;apt install php php-mysql -y;cd /tmp && wget https://wordpress.org/latest.tar.gz;tar -xvf latest.tar.gz;mv -v /tmp/wordpress/* /var/www/html/;chown -R www-data:www-data /var/www/html/;chmod -R 755 /var/www/html/;mkdir /var/www/html/wp-content/uploads;chown -R www-data:www-data /var/www/html/wp-content/uploads/;rm /var/www/html/index.html;apt install -y certbot python3-certbot-apache;mysql -u root -p;rm /etc/apache2/apache2.conf;wget https://pastebin.com/raw/pwhwNeLe -O /etc/apache2/apache2.conf;sudo apt-get update -y;apt-get install -y php-xml;apt-get install -y php-gd;apt install openssl;apt install -y php-curl;apt install -y php-mbstring;rm /etc/php/7.4/apache2/php.ini;wget https://paste.ee/r/Zm3Lo/0 -O /etc/php/7.4/apache2/php.ini;certbot;sudo service apache2 restart
+
+Change root pass : n
+Remove anonymous : y
+Disallow root login remotely : y
+Remove test database and access to it : y
+Reload privilege table : y
+
+CREATE DATABASE budibet;CREATE USER 'budibet'@'localhost' IDENTIFIED BY 'budibet';GRANT ALL ON budibet.* TO 'budibet'@'localhost' IDENTIFIED BY 'budibet';FLUSH PRIVILEGES;Exit;
+
+Option : 1
+Option : 1
+Option : 2
