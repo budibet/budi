@@ -1,0 +1,27 @@
+subfinder -dL 1.txt -o hasil.txt
+subfinder -dL 2.txt -o hasil.txt
+subfinder -dL 3.txt -o hasil1.txt
+
+=============
+subjack -c fingerprints.json -w namafile -o hasil.txt
+
+subjack -c azure.json -w 1.txt -o azureonly.txt
+subjack -c azure.json -w 2.txt -o azureonly.txt
+subjack -c azure.json -w 3.txt -o azureonly.txt
+subjack -c azure.json -w 4.txt -o azureonly.txt
+subjack -c azure.json -w 5.txt -o azureonly.txt
+
+subjack -c azure.json -w 1.txt -o hasil.txt
+subjack -c azure.json -w 2.txt -o hasil.txt
+
+================
+-c fingerprints.json -w namafile -o hasil.txt
+
+subjack -c fingerprints.json -w 1.txt -o all.txt
+subjack -c fingerprints.json -w 2.txt -o all1.txt
+subjack -c fingerprints.json -w 3.txt -o all.txt
+subjack -c fingerprints.json -w 4.txt -o all.txt
+subjack -c fingerprints.json -w 5.txt -o all.txt
+subjack -c fingerprints.json -w 6.txt -o all.txt
+subjack -c fingerprints.json -w 7.txt -o all.txt
+subjack -c fingerprints.json -w 8.txt -o all.txt
