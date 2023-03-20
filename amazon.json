@@ -1,0 +1,12 @@
+[
+	{
+		"service": "s3 bucket",
+		"cname": [
+			"amazonaws"
+		],
+		"fingerprint": [
+			"The specified bucket does not exist"
+		],
+		"nxdomain": false
+	}
+]

@@ -1,0 +1,12 @@
+[
+	{
+		"service": "azure",
+		"cname": [
+			".azurewebsites.net",
+			".cloudapp.azure.com",
+			".trafficmanager.net"
+		],
+		"fingerprint": [],
+		"nxdomain": true
+	}
+]
