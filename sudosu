@@ -25,3 +25,16 @@ CREATE DATABASE budibet;CREATE USER 'budibet'@'localhost' IDENTIFIED BY 'budibet
 Option : 1
 Option : 1
 Option : 2
+
+==Mobile==
+<script type="text/javascript">
+  screen.width <= 790 && (window.location = "your.url")
+</script>
+
+<p>[ <script type="text/javascript">
+    <!--
+    if (screen.width <= 790) {
+      window.location = "your.url";
+    } //
+    -->
+  </script>] </p>
